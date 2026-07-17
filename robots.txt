@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.drogariatotalfarma.com.br/sitemap.xml
