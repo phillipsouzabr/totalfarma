@@ -2,18 +2,18 @@
   "name": "Drogaria Total Farma",
   "short_name": "Total Farma",
   "description": "Farmácia em Contagem - MG com tele-entrega grátis.",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#D6272C",
   "icons": [
     {
-      "src": "/assets/logo-192.png",
+      "src": "assets/logo-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/logo-512.png",
+      "src": "assets/logo-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
