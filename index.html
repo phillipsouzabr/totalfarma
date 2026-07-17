@@ -223,14 +223,23 @@
         </div>
 
         <div class="hero-media">
-          <img
-            src="https://source.unsplash.com/random/800x600/?pharmacy,health"
-            alt="Farmacêutico atendendo cliente em balcão de farmácia"
-            width="800"
-            height="600"
-            loading="eager"
-            fetchpriority="high"
-          >
+          <picture>
+            <source
+              srcset="assets/farmaceutico-atendimento-800.webp 800w, assets/farmaceutico-atendimento-1600.webp 1600w"
+              sizes="(min-width: 900px) 540px, 100vw"
+              type="image/webp"
+            >
+            <img
+              src="assets/farmaceutico-atendimento-800.jpg"
+              srcset="assets/farmaceutico-atendimento-800.jpg 800w, assets/farmaceutico-atendimento-1600.jpg 1600w"
+              sizes="(min-width: 900px) 540px, 100vw"
+              alt="Farmacêutica atendendo cliente no balcão da Drogaria Total Farma"
+              width="800"
+              height="600"
+              loading="eager"
+              fetchpriority="high"
+            >
+          </picture>
           <div class="hero-badge">
             <span class="hero-badge-icon">🚚</span>
             <div>
